@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: api
 spec:
-  replicas: 20
+  replicas: 3
   selector:
     matchLabels:
       app: api
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: fabricioveronez/api-bootcamp-produto           
+          image: claudioniz/api-bootcamp-produto           
           ports: 
           - containerPort: 8080
           env: 
