@@ -46,7 +46,7 @@ jobs:
           push: true
           tags:
             claudioniz/api-bootcamp-produto:latest
-            claudioniz/api-bootcamp-produto:v${{github.run_number}}
+            claudioniz/api-bootcamp-produto:v3
             
       # Runs a single command using the runners shell
       - name: Run a one-line script
