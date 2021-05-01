@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  description: "API de Cadastro de Produtos - Nova Versão - 4.0"
-  version: "4.0.0"
-  title: "Cadastro de Produtos - Nova Versão - 4.0"
+  description: "API de Cadastro de Produtos - Nova Versão - 5.0"
+  version: "5.0.0"
+  title: "Cadastro de Produtos - Nova Versão - 5.0"
   contact:
     email: "claudioniz@meudominio.com"
 paths:
