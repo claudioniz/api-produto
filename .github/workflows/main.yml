@@ -45,8 +45,8 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags:
-            claudioniz/api-bootcamp-produto:latest
             claudioniz/api-bootcamp-produto:v3
+            claudioniz/api-bootcamp-produto:latest
             
       # Runs a single command using the runners shell
       - name: Run a one-line script
